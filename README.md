@@ -2,7 +2,7 @@
 
 12 Studios is a UCLA student-run creative agency helping Westwood businesses reach students through content, in-person promotion, and websites.
 
-Production: https://sep-12-studios-agency.vercel.app
+Production: https://12studios.vercel.app
 
 ## Website
 
