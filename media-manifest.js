@@ -1,0 +1,1 @@
+export default {"/media/ian-hq-01.mp4": {"size": 19318317, "chunkSize": 4194304, "prefix": "/assets/hq/ian-hq-01-"}, "/media/ian-hq-02.mp4": {"size": 24641859, "chunkSize": 4194304, "prefix": "/assets/hq/ian-hq-02-"}, "/media/ian-hq-03.mp4": {"size": 17861941, "chunkSize": 4194304, "prefix": "/assets/hq/ian-hq-03-"}};

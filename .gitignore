@@ -1,0 +1,8 @@
+node_modules/
+public/
+.vercel/
+.env*
+subscribers.csv
+.wrangler/
+work/
+.DS_Store

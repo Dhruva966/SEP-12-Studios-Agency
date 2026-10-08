@@ -1,0 +1,212 @@
+{
+  "id": "dry-cleaning",
+  "name": "Fresh Fold",
+  "short": "fresh",
+  "descriptor": "FOLD",
+  "category": "Dry cleaning & laundry",
+  "accent": "#155cc5",
+  "paper": "#f4f8fc",
+  "ink": "#142c46",
+  "tint": "#dcecf8",
+  "kicker": "A FRESH START FOR YOUR WARDROBE",
+  "headline": [
+    "Life gets busy.",
+    "We keep it fresh."
+  ],
+  "intro": "From the everyday pile to your favorite coat. Laundry and garment care with a little less to think about.",
+  "nav": [
+    "Services",
+    "How it works",
+    "Care guide"
+  ],
+  "cta": "Ask about a drop-off",
+  "explore": "Explore garment care",
+  "ribbon": "FRESH CLOTHES. A LITTLE MORE FREE TIME.",
+  "workTitle": [
+    "Care for the clothes.",
+    "Room for your day."
+  ],
+  "workIntro": "Everyday essentials and special pieces, treated with attention.",
+  "cards": [
+    [
+      "Dry cleaning",
+      "ready to wear again.",
+      "SPECIALIST GARMENT CARE",
+      "Suits \u00b7 Coats \u00b7 Delicate pieces",
+      "Care starts with the label, fabric, and condition. Let us know about stains or concerns so we can discuss the right treatment."
+    ],
+    [
+      "Wash & fold",
+      "take a load off.",
+      "EVERYDAY LAUNDRY",
+      "Everyday wear \u00b7 Towels \u00b7 Household laundry",
+      "A fresh start for the everyday pile. Tell us your preferences and we\u2019ll confirm the service and collection timing."
+    ]
+  ],
+  "workNote": "Cleaning results and turnaround depend on the garment and treatment required.",
+  "storyTitle": [
+    "Fresh starts",
+    "with careful hands."
+  ],
+  "storyIntro": "A simple routine, with attention to the details that help your clothes feel their best.",
+  "services": [
+    [
+      "Look closely.",
+      "We check care labels and talk through stains or delicate details before the work begins."
+    ],
+    [
+      "Care thoughtfully.",
+      "Different fabrics need different treatment. We choose the approach with your garment in mind."
+    ],
+    [
+      "Finish neatly.",
+      "Cleaned, finished, and ready for whatever your week has in store."
+    ]
+  ],
+  "demoTitle": [
+    "A little less laundry.",
+    "A little more life."
+  ],
+  "demoIntro": "Choose the care you\u2019re looking for. We\u2019ll confirm the right service for your items.",
+  "tabs": [
+    "Dry cleaning",
+    "Wash & fold",
+    "Pressing"
+  ],
+  "previews": [
+    [
+      "Specialist care",
+      "YOUR FAVORITES, REFRESHED.",
+      "Care beyond the ordinary.",
+      "Suits \u00b7 Coats \u00b7 Dresses and delicate items"
+    ],
+    [
+      "Wash & fold",
+      "THE EVERYDAY, SORTED.",
+      "One less thing to do.",
+      "Everyday clothing \u00b7 Towels \u00b7 Household laundry"
+    ],
+    [
+      "Pressing",
+      "A CRISP FINISH.",
+      "Ready for your next day.",
+      "Shirts \u00b7 Trousers \u00b7 Occasion wear"
+    ]
+  ],
+  "processTitle": "A SIMPLE ROUTINE",
+  "steps": [
+    [
+      "Bring it in.",
+      "Tell us about your items and any special care concerns."
+    ],
+    [
+      "Agree the care.",
+      "We confirm the treatment, estimate, and collection time."
+    ],
+    [
+      "Pick up fresh.",
+      "Collect your finished items and get on with your day."
+    ]
+  ],
+  "contactTitle": [
+    "Fresh clothes",
+    "start here."
+  ],
+  "contactIntro": "A care question or a bigger laundry load? Tell us what you need help with.",
+  "interests": [
+    "Dry cleaning",
+    "Wash & fold",
+    "Pressing",
+    "Care question"
+  ],
+  "detailLabel": "Items and preferred timing (optional)",
+  "detailPlaceholder": "Two suits and a wool coat",
+  "note": "Please check with the team before bringing unusually delicate or specialist items.",
+  "defaults": {
+    "agency": "Fresh Fold",
+    "headline": "Life gets busy. We keep it fresh.",
+    "contact": "",
+    "video": "",
+    "accent": "#155cc5",
+    "phone": "",
+    "address": "",
+    "hours": "",
+    "booking": "",
+    "motion": "system"
+  },
+  "presets": {
+    "beverage": {
+      "name": "Specialist care",
+      "kicker": "YOUR FAVORITES, REFRESHED.",
+      "headline": "Care beyond the ordinary.",
+      "body": "Suits \u00b7 Coats \u00b7 Dresses and delicate items",
+      "color": "#dcecf8",
+      "image": "citrus.jpg"
+    },
+    "restaurant": {
+      "name": "Wash & fold",
+      "kicker": "THE EVERYDAY, SORTED.",
+      "headline": "One less thing to do.",
+      "body": "Everyday clothing \u00b7 Towels \u00b7 Household laundry",
+      "color": "#dcecf8",
+      "image": "coffee.jpg"
+    },
+    "snacks": {
+      "name": "Pressing",
+      "kicker": "A CRISP FINISH.",
+      "headline": "Ready for your next day.",
+      "body": "Shirts \u00b7 Trousers \u00b7 Occasion wear",
+      "color": "#dcecf8",
+      "image": "citrus.jpg"
+    }
+  },
+  "concepts": [
+    {
+      "name": "Dry cleaning",
+      "frames": [
+        "ready to wear again.",
+        "Dry cleaning",
+        "Fresh clothes. a little more free time."
+      ],
+      "desc": "Care starts with the label, fabric, and condition. Let us know about stains or concerns so we can discuss the right treatment.",
+      "image": "citrus.jpg"
+    },
+    {
+      "name": "Wash & fold",
+      "frames": [
+        "take a load off.",
+        "Wash & fold",
+        "Fresh clothes. a little more free time."
+      ],
+      "desc": "A fresh start for the everyday pile. Tell us your preferences and we\u2019ll confirm the service and collection timing.",
+      "image": "coffee.jpg"
+    }
+  ],
+  "navTargets": [
+    "#demo",
+    "#process",
+    "#services"
+  ],
+  "sectionOrder": [
+    "demo",
+    "process",
+    "services",
+    "work",
+    "faq",
+    "contact"
+  ],
+  "faq": [
+    [
+      "What should I mention at drop-off?",
+      "Point out stains, repairs, delicate details, and any care preferences. Keep care labels attached where possible."
+    ],
+    [
+      "How long does cleaning take?",
+      "Timing depends on the items and treatment. Confirm collection timing with the shop when the care is agreed."
+    ],
+    [
+      "Will every stain come out?",
+      "Results depend on the fabric, stain, and previous treatment. Ask the team to assess the item before cleaning."
+    ]
+  ]
+}
