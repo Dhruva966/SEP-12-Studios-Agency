@@ -113,7 +113,7 @@ $$('a[href^="#"]').forEach(link=>link.addEventListener('click',event=>{
 const heroVideo=$('#hero-video'),backgroundToggle=$('#background-toggle');
 let backgroundPaused=reduced,videoSource='',videoFailed=false;
 function backgroundState(){
-  backgroundToggle.disabled=reduced;
+  if(backgroundToggle)backgroundToggle.disabled=reduced;
   $('.hero').classList.toggle('background-paused',backgroundPaused||reduced);
   if(backgroundToggle)backgroundToggle.textContent=reduced?'Motion reduced':(backgroundPaused?'Play background':'Pause background');
   backgroundToggle?.setAttribute('aria-pressed',String(backgroundPaused));
