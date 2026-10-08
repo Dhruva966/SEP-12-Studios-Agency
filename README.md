@@ -2,6 +2,8 @@
 
 12 Studios is a UCLA student-run creative agency helping Westwood businesses reach students through content, in-person promotion, and websites.
 
+Production: https://sep-12-studios-agency.vercel.app
+
 ## Website
 
 The site includes an animated landing page, high-quality creator videos, performance screenshots with an image viewer, five independently scrollable example websites, twelve team portraits, and a contact form with optional newsletter updates.
@@ -23,7 +25,7 @@ Static preview does not run the contact API. Use `npx vercel dev` after connecti
 
 ## Deploy to Vercel
 
-Import this repository. Framework: Other. Build command: `npm run build`. Output directory: `public`. Connect a **private Vercel Blob store** to the project, which supplies `BLOB_READ_WRITE_TOKEN`, and redeploy.
+Import this repository. Framework: Other. Build command: `npm run build`. Output directory: `public`. Connect a **private Vercel Blob store** to the project, which supplies `BLOB_STORE_ID` and uses Vercel’s project identity, and redeploy.
 
 The build assembles original-quality video chunks into `/media/*.mp4`; Vercel serves those files with native streaming/range support. The source chunks also support the optional Cloudflare Worker deployment.
 
@@ -45,7 +47,7 @@ No credentials belong in Git. Configure secrets in the hosting dashboard. Privat
 
 ## Collaboration
 
-Clone the repository, create a branch, make changes, run the build and tests, and open a pull request. Public access allows anyone to read the project; write collaborators can be invited through repository settings.
+Clone the repository, create a branch, make changes, run the build and tests, and open a pull request against the production branch, `Dhruvasprojects`. Public access allows anyone to read the project; write collaborators can be invited through repository settings.
 
 ## Media and affiliation
 
