@@ -58,3 +58,12 @@ body{background:#fff;font-family:'Nunito Sans',sans-serif}header{background:#fff
 /* Keep animated backdrop above the hero paint, behind its content. */
 .hero{isolation:isolate}
 .hero>.eyebrow{padding-right:0;max-width:none}
+
+/* Let the mobile header contain its second row instead of overlapping the hero. */
+@media(max-width:700px){
+  .theme-dry-cleaning header{height:auto;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;padding:16px 5%}
+  .theme-dry-cleaning header>.wordmark{grid-column:1;grid-row:1}
+  .theme-dry-cleaning header>.menu-toggle{grid-column:2;grid-row:1}
+  .theme-dry-cleaning header>.booking-cta{grid-column:1/-1;grid-row:2;justify-self:start;margin:0;max-width:100%}
+  .theme-dry-cleaning header>nav{grid-column:1/-1;grid-row:3}
+}
