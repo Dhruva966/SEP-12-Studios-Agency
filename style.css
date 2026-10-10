@@ -134,3 +134,8 @@ header .logo .brand-name{font-size:25px;letter-spacing:1.2px}header nav{gap:34px
  .work>.section-heading p{margin:0}
  .work-offer{margin-top:32px}
 }
+/* Center the introduction over the video gallery. */
+.work>.section-heading{display:block;text-align:center}
+.work>.section-heading>.eyebrow{display:block;padding-top:0;margin-bottom:12px}
+.work>.section-heading>h2{margin:0 auto}
+.work>.section-heading>p{max-width:none;margin:18px auto 0}
