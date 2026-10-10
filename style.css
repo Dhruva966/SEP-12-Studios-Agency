@@ -139,3 +139,15 @@ header .logo .brand-name{font-size:25px;letter-spacing:1.2px}header nav{gap:34px
 .work>.section-heading>.eyebrow{display:block;padding-top:0;margin-bottom:12px}
 .work>.section-heading>h2{margin:0 auto}
 .work>.section-heading>p{max-width:none;margin:18px auto 0}
+
+/* A loosely pinned collage, with small overlaps and stable irregular placement. */
+.screenshot-gallery{grid-template-rows:repeat(2,420px);grid-auto-columns:205px;gap:0;padding:52px 38px 48px}
+.screenshot-mini{transform:translate(var(--pin-x,0px),var(--pin-y,0px)) rotate(var(--pin-angle,-2deg))}
+.screenshot-mini:nth-child(6n+1){--pin-angle:-4deg;--pin-x:-5px;--pin-y:9px;z-index:2}
+.screenshot-mini:nth-child(6n+2){--pin-angle:3deg;--pin-x:7px;--pin-y:-8px}
+.screenshot-mini:nth-child(6n+3){--pin-angle:1.5deg;--pin-x:-8px;--pin-y:14px}
+.screenshot-mini:nth-child(6n+4){--pin-angle:-3deg;--pin-x:5px;--pin-y:4px;z-index:2}
+.screenshot-mini:nth-child(6n+5){--pin-angle:4.5deg;--pin-x:3px;--pin-y:-10px}
+.screenshot-mini:nth-child(6n){--pin-angle:-1.5deg;--pin-x:-4px;--pin-y:12px}
+.screenshot-mini:hover,.screenshot-mini:focus-visible{z-index:5;transform:translate(var(--pin-x,0px),calc(var(--pin-y,0px) - 5px)) rotate(0)}
+@media(max-width:600px){.screenshot-gallery{grid-template-rows:repeat(2,380px);grid-auto-columns:186px;gap:0;padding:46px 30px 42px}}
