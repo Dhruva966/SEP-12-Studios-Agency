@@ -113,3 +113,24 @@ header{height:90px}header .logo{gap:10px}header .logo img{width:84px;height:84px
 header .logo .brand-name{font-size:25px;letter-spacing:1.2px}header nav{gap:34px;font-size:13px}header .nav-cta{min-height:50px;padding:13px 22px;gap:30px}header .nav-cta .arrow-icon{width:20px;height:20px}
 @media(max-width:800px){header .logo .brand-name{font-size:19px;letter-spacing:.6px}header .menu-toggle{font-size:13px;gap:20px}header .menu-toggle span{font-size:22px}header nav{gap:8px;font-size:13px}}
 @media(max-width:420px){header .logo .brand-name{font-size:17px}}@media(max-width:360px){header .logo .brand-name{font-size:15px}}
+
+/* Lead with the work; keep the brand artwork beside the footer. */
+.hero{padding-bottom:0}
+.hero-bottom{margin-bottom:26px}
+.work.section{padding-top:24px}
+.work>.section-heading{margin-bottom:24px}
+.work>.section-heading h2{font-size:clamp(32px,3vw,46px)}
+.work-offer{margin:42px 0 28px}
+.brand-outro{padding:24px 4.5%}
+.brand-outro .hero-stage{margin:0}
+@media(max-width:800px){
+ .hero{padding-top:22px}
+ .hero h1{margin:24px 0 18px}
+ .hero-bottom{margin-bottom:20px;gap:18px}
+ .hero-bottom p{line-height:1.6}
+ .work.section{padding-top:18px}
+ .work>.section-heading{gap:10px;margin-bottom:18px}
+ .work>.section-heading h2{font-size:32px}
+ .work>.section-heading p{margin:0}
+ .work-offer{margin-top:32px}
+}
